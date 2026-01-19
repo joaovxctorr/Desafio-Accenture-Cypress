@@ -20,9 +20,11 @@ Para configurar o ambiente local e executar a suíte de testes, utilize os coman
 
 ### 1. Instalar Dependências
 # Inicializa o projeto e instala o Cypress, Cucumber e Faker
-npm install @badeball/cypress-cucumber-preprocessor --save-dev
-npm install @bahmutov/cypress-esbuild-preprocessor --save-dev
-npm install @faker-js/faker --save-dev
+*npm install cypress --save-dev
+*npm install @badeball/cypress-cucumber-preprocessor --save-dev
+*npm install @bahmutov/cypress-esbuild-preprocessor --save-dev
+*npm install @faker-js/faker --save-dev
 
 ### 2. Execucao do projeto
+
 npx cypress open
