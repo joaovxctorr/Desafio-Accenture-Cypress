@@ -1,5 +1,5 @@
 # ☕ Automação E2E - Coffee Cart com Cypress & Cucumber
-Este projeto consiste em uma suíte de testes automatizados **End-to-End (ponta a ponta)** para a aplicação **Coffee Cart**. A automação foi desenvolvida utilizando **BDD (Behavior Driven Development)** e **POM (Page Object Model)**, validando o fluxo completo de compra, desde a seleção de produtos até a finalização do checkout.
+Este projeto consiste em uma suíte de testes automatizados **End-to-End (ponta a ponta)** para a aplicação **Coffee Cart**. A automação foi desenvolvida utilizando o **POM (Page Object Model)**, validando o fluxo completo de compra, desde a seleção de produtos até a finalização do checkout.
 
 # Tecnologias e Frameworks
 * **Cypress:** Framework principal de automação para testes de interface moderna e rápida.
@@ -26,6 +26,7 @@ Para configurar o ambiente local e executar a suíte de testes, utilize os coman
 
 # 2. Execucao do projeto
 * npx cypress open
+
 
 
 
