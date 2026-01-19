@@ -18,15 +18,14 @@ A organização dos arquivos no diretório `cypress/` segue a lógica de separa�
 # Instalação e Execução
 Para configurar o ambiente local e executar a suíte de testes, utilize os comandos NPM abaixo:
 
-### 1. Instalar Dependências
-# Inicializa o projeto e instala o Cypress, Cucumber e Faker
+# 1. Instalar Dependências (Cypress, Cucumber e Faker)
 * npm install cypress --save-dev
 * npm install @badeball/cypress-cucumber-preprocessor --save-dev
 * npm install @bahmutov/cypress-esbuild-preprocessor --save-dev
 * npm install @faker-js/faker --save-dev
 
-### 2. Execucao do projeto
+# 2. Execucao do projeto
+* npx cypress open
 
-npx cypress open
 
 
